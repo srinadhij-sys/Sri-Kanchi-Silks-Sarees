@@ -1,0 +1,116 @@
+body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; color: #333; background-color: #fff; }
+.clear { clear: both; }
+#wrapper, .footer-inner, .inner-copy { width: 980px; margin: 0 auto; }
+
+#header { padding: 15px 0 10px; display: table; }
+.logo { font-family: "Georgia", "Times New Roman", serif; font-style: italic; color: #ca143d; font-size: 40px; margin: 0; font-weight: normal; }
+
+#nav { background-color: #b01131; height: 35px; line-height: 35px; }
+#nav ul { margin: 0; padding: 0; list-style: none; float: left; }
+#nav li { float: left; border-right: 1px solid #db3659; }
+#nav li a { color: #fff; text-decoration: none; font-size: 11px; padding: 0 12px; display: block; font-weight: bold; font-family: Arial, sans-serif; }
+#nav li a:hover { background-color: #d11e42; }
+.nav-right { float: right; }
+.nav-right a { color: #fff; text-decoration: none; font-size: 11px; padding: 0 12px; display: inline-block; background-color: #830b23; border-left: 1px solid #5a0616; font-weight: bold; }
+
+.top-content { margin-top: 15px; }
+.left-col { float: left; width: 69%; }
+.right-col { float: right; width: 29.5%; }
+
+.promo-bar { margin-bottom: 2px; }
+.promo-box { float: left; width: 24.2%; margin-right: 0.8%; background-color: #b01131; color: #fff; padding: 10px 0; text-align: center; font-size: 10px; }
+.promo-box:last-child { margin-right: 0; background-color: #cb1236; }
+.promo-box strong { font-size: 14px; text-transform: uppercase; }
+
+.main-banner { background-color: #fcebeb; position: relative; height: 320px; overflow: hidden; border: 1px solid #ccc; }
+.main-banner img { width: 100%; height: 320px; }
+.banner-text { position: absolute; bottom: 20px; left: 20px; background: rgba(255,255,255,0.85); padding: 10px 20px; border: 1px solid #ddd; }
+.banner-text h2 { color: #f85b6a; margin: 0; font-size: 26px; }
+.banner-text h3 { color: #666; margin: 2px 0 10px; font-size: 18px; font-weight: normal; }
+.shop-now { font-weight: bold; color: #000; text-decoration: none; font-size: 12px; }
+
+.side-promo { height: 75px; border: 1px solid #ccc; font-size: 20px; color: #fff; text-shadow: 1px 1px 3px #000; line-height: 75px; padding-left: 15px; background-size: cover; background-position: center 20%; background-color: #ebd2d2; }
+.bg-saree { background-image: url('images/silk.png'); }
+.bg-bridal { background-image: url('images/bridal.png'); }
+.bg-cotton { background-image: url('images/cotton.png'); }
+.bg-decor { background-image: url('images/designer.png'); }
+.mt { margin-top: 5px; }
+
+.action-bars { margin-top: 15px; }
+.search-bar, .newsletter-bar { background-color: #f4807d; padding: 6px; height: 35px; box-sizing: border-box; }
+.search-bar { float: left; width: 49%; border-radius: 5px; }
+.newsletter-bar { float: right; width: 49%; border-radius: 5px; }
+.action-bars .label { color: #fff; font-weight: bold; margin: 0 10px; float: left; line-height: 23px; font-size: 12px; text-shadow: 1px 1px 1px #a34e4e; }
+.action-bars input { border: none; padding: 4px; font-size: 11px; color: #b13b4c; float: left; width: 60%; font-style: italic; margin-top: 2px; }
+.action-bars button { background: #e36a6a; border: 1px solid #fff; color: #fff; margin-left: 5px; float: left; height: 21px; margin-top: 2px; cursor: pointer; border-radius: 3px; }
+
+.arrivals { margin-top: 20px; }
+.arrival-item { float: left; width: 23%; margin-right: 2.6%; }
+.arrival-item:last-child { margin-right: 0; }
+.arrival-item h5 { font-size: 12px; margin: 0 0 10px; font-weight: normal; color: #333; text-transform: uppercase; }
+.img-box { border: 2px solid #f99092; height: 160px; overflow: hidden; padding: 2px; }
+.img-box img { width: 100%; height: auto; }
+.arrival-item p { font-size: 10px; color: #666; line-height: 1.4; margin: 10px 0; }
+.arrival-item .more { color: #b01131; font-size: 10px; text-decoration: none; font-weight: bold; }
+
+.shop-by-section { margin-top: 40px; margin-bottom: 20px; }
+.shop-by { float: left; width: 70%; }
+.shop-by h4 { font-size: 13px; margin: 0 0 10px; font-weight: bold; }
+.shop-widget { border: 1px solid #ccc; border-radius: 5px; padding: 15px; display: flex; align-items: center; }
+.price-filter { width: 35%; border-right: 1px solid #eee; padding-right: 15px; }
+.price-filter b { font-size: 11px; color: #b01131; }
+.price-filter .track { height: 2px; background: #ddd; margin: 15px 0 10px; position: relative; }
+.price-filter .track::before { content:''; position:absolute; left:0; width:8px; height:8px; background:#b01131; border-radius:50%; top:-3px; }
+.price-filter .track::after { content:''; position:absolute; right:0; width:8px; height:8px; background:#b01131; border-radius:50%; top:-3px; }
+.inputs span { font-size: 9px; color: #b01131; display: inline-block; width: 45%; }
+.inputs input { width: 80%; background: #fbe5e6; border: 1px solid #ccc; font-size: 10px; padding: 2px; margin-top: 2px; color: #b01131; }
+.submit-btn { display: inline-block; font-size: 10px; color: #b01131; font-weight: bold; text-decoration: none; margin-top: 10px; float: right; padding-right: 10px; }
+
+.pills-grid { width: 60%; padding-left: 20px; display: flex; justify-content: space-between; }
+.pills-grid .col { width: 23%; }
+.pills-grid span { display: block; background-color: #f7dbe0; color: #666; padding: 3px 5px; font-size: 9px; margin-bottom: 4px; border-radius: 3px; font-weight: bold; }
+
+.todays-deal { float: right; width: 26%; background-color: #313346; color: #fff; padding: 15px; height: 60px; margin-top: 25px; border-radius: 2px; }
+.todays-deal h4 { text-transform: uppercase; color: #f7b447; margin: 0; font-size: 12px; font-weight: normal; }
+.todays-deal h2 { margin: 5px 0; font-size: 30px; font-weight: normal; }
+.todays-deal a { color: #fff; font-size: 10px; text-decoration: none; text-transform: uppercase; float: right; margin-top: -10px;}
+
+#footer-wrap { background-color: #b01131; padding: 30px 0; color: #fff; margin-top: 40px; }
+.footer-col { float: left; width: 16%; font-size: 11px; }
+.footer-col strong { display: block; font-size: 13px; margin-bottom: 15px; font-weight: normal; }
+.footer-col a { display: block; color: #faaab6; text-decoration: none; margin-bottom: 6px; }
+.footer-col a:hover { color: #fff; }
+.breadcrumbs { font-size: 11px; color: #666; margin-bottom: 15px; width: 100%; border-bottom: 1px dotted #ccc; padding-bottom: 5px; }
+.breadcrumbs a { color: #b01131; text-decoration: none; }
+.reviews { font-size: 12px; margin-bottom: 10px; color: #666; }
+.stars { color: #ff9900; font-size: 16px; margin-right: 5px; }
+.reviews a { font-size: 11px; color: #0066cc; text-decoration: underline; }
+.price-box { border: 1px solid #ddd; background-color: #f9f9f9; padding: 15px; margin-bottom: 15px; border-radius: 3px; }
+.current-price { font-size: 28px; color: #b01131; font-weight: bold; margin-bottom: 5px; }
+.old-price { font-size: 13px; color: #777; margin-bottom: 2px; }
+.savings { font-size: 13px; color: #008800; font-weight: bold; margin-bottom: 5px; }
+.tax-note { font-size: 10px; color: #999; margin-bottom: 15px; }
+.buy-actions { margin-bottom: 10px; }
+.buy-actions label { font-size: 12px; font-weight: bold; margin-right: 5px; }
+.buy-actions select { padding: 3px; font-size: 12px; border: 1px solid #ccc; margin-right: 15px; }
+.add-to-cart-btn { display: inline-block; background-color: #f0c14b; color: #111; padding: 5px 10px; text-decoration: none; font-weight: bold; font-size: 11px; border-radius: 3px; border: 1px solid #a88734; }
+.add-to-cart-btn:hover { background-color: #ddb146; }
+.wishlist-link a { font-size: 11px; color: #0066cc; text-decoration: none; }
+.wishlist-link a:hover { text-decoration: underline; color: #b01131; }
+.description p { font-size: 13px; line-height: 1.5; color: #444; border-left: 3px solid #b01131; padding-left: 10px; }
+.specs-list { margin-top: 20px; }
+.specs-list table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.specs-list th { text-align: left; padding: 6px; border-bottom: 1px solid #eee; width: 100px; color: #666; font-weight: bold; background: #fafafa; }
+.specs-list td { padding: 6px; border-bottom: 1px solid #eee; color: #333; }
+
+.copyright { background-color: #fff; border-top: 1px solid #ddd; padding: 10px 0; font-size: 11px; color: #000; font-weight: bold; text-align: left; }
+
+.buy-now-btn { display: inline-block; background-color: #b01131; color: #fff; padding: 5px 10px; text-decoration: none; font-weight: bold; font-size: 11px; border-radius: 3px; margin-top: 5px; }
+.buy-now-btn:hover { background-color: #d11e42; }
+.product-page-content { padding: 20px; border: 1px solid #ccc; margin-top: 20px; float: left; width: 938px; }
+.product-image { width: 300px; border: 2px solid #f99092; padding: 3px; float: left; margin-right: 20px; }
+.product-image img { width: 100%; height: auto; }
+.product-info { float: left; width: 580px; }
+.product-info h2 { color: #b01131; margin-top: 0; }
+.product-info .price { font-size: 24px; color: #333; font-weight: bold; margin-bottom: 20px; }
+.product-info p { font-size: 13px; line-height: 1.5; color: #444; }
